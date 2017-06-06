@@ -42,8 +42,6 @@ if (resultsQuantity === 0) {
     ymaps.ready(init);
 }
 
-console.log(latitude + ' ' + longitude);
-
 $('.result').each(function () {
     if ($(this).find('h4').html() == latitude + ' ' + longitude) {
         $(this).css({
